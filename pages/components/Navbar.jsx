@@ -12,7 +12,15 @@ export default function Navbar() {
 						></path>
 					</svg>
 				</a>
+				<div className='relative'>
+					<input
+						type='text'
+						className='rounded bg-gray-700 text-sm placeholder-white w-72 px-3 py-1'
+						placeholder='Search or jump to...'
+					/>
+				</div>
 			</div>
+
 			<div>right</div>
 		</nav>
 	);
