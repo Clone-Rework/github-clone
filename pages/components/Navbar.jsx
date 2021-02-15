@@ -18,6 +18,9 @@ export default function Navbar() {
 						className='rounded bg-gray-700 text-sm placeholder-white w-72 px-3 py-1'
 						placeholder='Search or jump to...'
 					/>
+					<div className='absolute top-0 right-0 flex items-center h-full'>
+						<div className='border border-gray-600 rounded text-xs text-gray-400 px-2 mr-2'>/</div>
+					</div>
 				</div>
 			</div>
 
