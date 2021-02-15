@@ -22,6 +22,28 @@ export default function Navbar() {
 						<div className='border border-gray-600 rounded text-xs text-gray-400 px-2 mr-2'>/</div>
 					</div>
 				</div>
+				<ul className='flex items-center font-semibold space-x-4'>
+					<li>
+						<a href='#' className='hover:text-gray-400'>
+							Pull Request
+						</a>
+					</li>
+					<li>
+						<a href='#' className='hover:text-gray-400'>
+							Issues
+						</a>
+					</li>
+					<li>
+						<a href='#' className='hover:text-gray-400'>
+							Marketplace
+						</a>
+					</li>
+					<li>
+						<a href='#' className='hover:text-gray-400'>
+							Explore
+						</a>
+					</li>
+				</ul>
 			</div>
 
 			<div>right</div>
