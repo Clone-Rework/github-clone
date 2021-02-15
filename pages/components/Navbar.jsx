@@ -95,6 +95,11 @@ export default function Navbar() {
 					</svg>
 				</a>
 				<a href='#' className='flex items-center hover:text-gray-400'>
+					<img
+						src='https://avatars.githubusercontent.com/u/18293347?s=60&amp;v=4'
+						alt='Avatar from Tolga Kara at GitHub'
+						className='w-5 h-5 rounded-full'
+					/>
 					<svg
 						className='w-3 ml-1'
 						xmlns='http://www.w3.org/2000/svg'
