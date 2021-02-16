@@ -895,6 +895,15 @@ export const FileExplorer = () => {
 				<div className='readme-container rounded-md border border-gray-400 px-4 py-4 mt-4'>
 					<h4 className='font-semibold'>README.md</h4>
 					<div>
+						<img
+							alt='Tailwind CSS'
+							width='350'
+							src='https://camo.githubusercontent.com/53b9876cd8e38928387c6824043b0e2772b15b1bfdb7f42d0864216abbf3dfe8/68747470733a2f2f7265666163746f72696e6775692e6e7963332e63646e2e6469676974616c6f6365616e7370616365732e636f6d2f7461696c77696e642d6c6f676f2e737667'
+							data-canonical-src='https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg'
+						/>
+						<p>A utility-first CSS framework for rapidly building custom user interfaces.</p>
+						<div></div>
+						<hr />
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit vel tempora placeat
 						mollitia corrupti quaerat consectetur unde obcaecati nobis ab laborum dolore, quas
 						doloremque enim a rerum illum? Modi, consequatur? Eos et consequatur iure omnis
