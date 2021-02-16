@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { FileExplorer } from "./components/FileExplorer";
+import { Footer } from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { RepoNav } from "./components/RepoNav";
 import { RepoTabs } from "./components/RepoTabs";
