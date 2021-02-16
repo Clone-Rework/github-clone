@@ -11,6 +11,7 @@ export default function Home() {
 			<RepoTabs />
 			<RepoNav />
 			<FileExplorer />
+			<Footer />
 		</div>
 	);
 }
