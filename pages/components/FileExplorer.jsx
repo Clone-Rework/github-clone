@@ -400,6 +400,497 @@ export const FileExplorer = () => {
 						</div>
 						<div className='w-2/12 text-right '>4 years ago</div>
 					</div>
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								.eslintignore
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Updated CLI init commend
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>2 years ago</div>
+					</div>
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								.eslintrc.json
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Remove eslint-config-postcss
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>4 months ago</div>
+					</div>
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								.gitignore
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Ignore coverage folder
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>4 months ago</div>
+					</div>
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								CHANGELOG.md
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Update changelog
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>9 days ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								LICENSE
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Avoid updating license every year
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>3 years ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								README.md
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Fix Codecov badge (<span className='text-blue-600'>#2678</span>)
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>4 months ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								base.css
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Remove preflight CSS export in favor of base
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>2 years ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								color.js
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Move black and white colors to colors.js
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>3 months ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								components.css
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Move CSS files to root for easier imports
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>3 years ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								defaultConfig.js
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Updated CLI init commend
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>2 years ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								defaultTheme.js
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Updated CLI init commend
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>2 years ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								package.json
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Update postcss to version 8.2.6
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>2 days ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								package.postcss7.json
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Postcss7 compatibility (<span className='text-blue-600'>#2773</span>)
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>3 months ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								plugin.js
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Add `default` interop to tailwindcss/plugin
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>4 months ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								resolveConfig.js
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Support new `presets` key + extending core plugins config (
+								<span className='text-blue-600'>#2474</span>)
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>4 months ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								screen.css
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Add screen.css file for postcss-import convenience
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>2 years ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								tailwind.css
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Undo accidental changes to CDN build process
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>14 months ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								utilities.css
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Move CSS files to root for easier imports
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>3 years ago</div>
+					</div>
+
+					<div className='flex justify-between px-4 py-2 hover:bg-gray-100'>
+						<div className='w-4/12 flex items-center'>
+							<svg
+								aria-label='Directory'
+								className='w-4 fill-current text-gray-400'
+								viewBox='0 0 16 16'
+								role='img'
+							>
+								<path
+									fill-rule='evenodd'
+									d='M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z'
+								></path>
+							</svg>
+
+							<a href='#' className='hover:underline hover:text-blue-600 ml-3'>
+								yarn.lock
+							</a>
+						</div>
+						<div className='w-6/12 truncate'>
+							<a href='' className='hover:underline hover:text-blue-600'>
+								Update postcss to version 8.2.6
+							</a>
+						</div>
+						<div className='w-2/12 text-right '>2 days ago</div>
+					</div>
 				</div>
 				<div className='readme-container rounded-md border border-gray-400 px-4 py-4 mt-4'>
 					<h4 className='font-semibold'>README.md</h4>
