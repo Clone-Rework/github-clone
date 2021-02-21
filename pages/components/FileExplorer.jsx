@@ -902,7 +902,8 @@ export const FileExplorer = () => {
 							data-canonical-src='https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg'
 						/>
 						<p>A utility-first CSS framework for rapidly building custom user interfaces.</p>
-						<div></div>
+						<div>[] Markdown Parser</div>
+						<div>[] Tailwind Typography</div>
 						<hr />
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit vel tempora placeat
 						mollitia corrupti quaerat consectetur unde obcaecati nobis ab laborum dolore, quas
