@@ -2,8 +2,8 @@ import React from "react";
 
 export const Footer = () => {
 	return (
-		<footer className='container mx-auto text-xs border-t border-gray-400 py-10 flex items-center justify-between'>
-			<ul className='flex items-center space-x-12'>
+		<footer className='container mx-auto text-xs border-t border-gray-400 py-10 flex flex-col lg:flex-row items-center justify-between'>
+			<ul className='flex items-center space-x-6 lg:space-x-12'>
 				<li>&copy; 2020 GitHub, Inc.</li>
 				<li>
 					<a href='#' className='text-blue-600 hover:underline'>
@@ -31,7 +31,7 @@ export const Footer = () => {
 					</a>
 				</li>
 			</ul>
-			<div className='mx-16'>
+			<div className='mx-16 hidden lg:block'>
 				<a href='#'>
 					<svg
 						className='w-6 fill-current text-gray-400 hover:text-gray-600'
@@ -45,7 +45,7 @@ export const Footer = () => {
 					</svg>
 				</a>
 			</div>
-			<ul className='flex items-center space-x-12'>
+			<ul className='flex items-center space-x-6 lg:space-x-12 mt-4 lg:mt-0'>
 				<li>
 					<a href='#' className='text-blue-600 hover:underline'>
 						Contact GitHub
