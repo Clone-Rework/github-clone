@@ -70,6 +70,32 @@ export const Sidebar = () => {
 					<span>Release</span>
 					<div className='text-xs rounded-lg bg-gray-300 px-2 ml-1'>146</div>
 				</h4>
+				<a href='#' className='flex items-start mt-4 group'>
+					<svg
+						className='fill-current mt-1 w-4 text-green-500 group-hover:text-blue-500'
+						version='1.1'
+						viewBox='0 0 16 16'
+						aria-hidden='true'
+					>
+						<path
+							fill-rule='evenodd'
+							d='M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z'
+						></path>
+					</svg>
+					<span className='ml-2'>
+						<span className='font-semibold group-hover:text-blue-600'>v1.5.1</span>
+						<span className='ml-1 text-xs border border-green-500 text-green-600 rounded-full font-semibold inline-block px-2'>
+							Latest
+						</span>
+						<span className='block text-xs group-hover:text-blue-600'>14 days ago</span>
+					</span>
+				</a>
+				<div className='mt-4'>
+					<a href='#' className='text-blue-600 hover:underline text-xs'>
+						{" "}
+						+ 145 releases
+					</a>
+				</div>
 			</div>
 			<div className='packages border-t border-gray-400 mt-6 pt-6'>
 				<h4 className='text-base font-semibold flex items-center'>
@@ -82,25 +108,144 @@ export const Sidebar = () => {
 					<span>Used by </span>
 					<div className='text-xs rounded-lg bg-gray-300 px-2 ml-1'>139k</div>
 				</h4>
+				<div className='mt-4'>
+					<a href='#' className='flex items-center -space-x-2'>
+						<img
+							className='w-8 border-2 border-white rounded-full '
+							src='https://s3.amazonaws.com/uifaces/faces/twitter/johndezember/128.jpg'
+							alt='avatar'
+						/>
+						<img
+							className='w-8 border-2 border-white rounded-full '
+							src='https://s3.amazonaws.com/uifaces/faces/twitter/mattsapii/128.jpg'
+							alt='avatar'
+						/>
+						<img
+							className='w-8 border-2 border-white rounded-full '
+							src='https://s3.amazonaws.com/uifaces/faces/twitter/nckjrvs/128.jpg'
+							alt='avatar'
+						/>
+						<img
+							className='w-8 border-2 border-white rounded-full '
+							src='https://s3.amazonaws.com/uifaces/faces/twitter/ddggccaa/128.jpg'
+							alt='avatar'
+						/>
+						<img
+							className='w-8 border-2 border-white rounded-full '
+							src='https://s3.amazonaws.com/uifaces/faces/twitter/aroon_sharma/128.jpg'
+							alt='avatar'
+						/>
+						<img
+							className='w-8 border-2 border-white rounded-full '
+							src='https://s3.amazonaws.com/uifaces/faces/twitter/trubeatto/128.jpg'
+							alt='avatar'
+						/>
+						<img
+							className='w-8 border-2 border-white rounded-full '
+							src='http://placeimg.com/640/480/people'
+							alt='avatar'
+						/>
+						<img
+							className='w-8 border-2 border-white rounded-full '
+							src='http://placeimg.com/640/480/people'
+							alt='avatar'
+						/>
+						<span
+							className='text-xs text-blue-600 font-semibold hover:underline'
+							style={{ marginLeft: "1rem" }}
+						>
+							+ 144,099
+						</span>
+					</a>
+				</div>
 			</div>
 			<div className='contributors border-t border-gray-400 mt-6 pt-6'>
 				<h4 className='text-base font-semibold flex items-center'>
 					<span>Contributors</span>
 					<div className='text-xs rounded-lg bg-gray-300 px-2 ml-1'>160</div>
 				</h4>
+				<div className='flex items-center flex-wrap mt-2'>
+					<a href='#'>
+						<img
+							src='http://placeimg.com/640/480/sports'
+							alt='avatar'
+							className='w-8 mr-2 mt-2 rounded-full'
+						/>
+					</a>
+					<a href='#'>
+						<img
+							src='http://placeimg.com/640/480/sports'
+							alt='avatar'
+							className='w-8 mr-2 mt-2 rounded-full'
+						/>
+					</a>
+					<a href='#'>
+						<img
+							src='http://placeimg.com/640/480/sports'
+							alt='avatar'
+							className='w-8 mr-2 mt-2 rounded-full'
+						/>
+					</a>
+					<a href='#'>
+						<img
+							src='http://placeimg.com/640/480/sports'
+							alt='avatar'
+							className='w-8 mr-2 mt-2 rounded-full'
+						/>
+					</a>
+					<a href='#'>
+						<img
+							src='http://placeimg.com/640/480/sports'
+							alt='avatar'
+							className='w-8 mr-2 mt-2 rounded-full'
+						/>
+					</a>
+					<a href='#'>
+						<img
+							src='http://placeimg.com/640/480/sports'
+							alt='avatar'
+							className='w-8 mr-2 mt-2 rounded-full'
+						/>
+					</a>
+					<a href='#'>
+						<img
+							src='http://placeimg.com/640/480/sports'
+							alt='avatar'
+							className='w-8 mr-2 mt-2 rounded-full'
+						/>
+					</a>
+					<span
+						className='text-xs text-blue-600 font-semibold hover:underline'
+						style={{ marginLeft: "0.5rem" }}
+					>
+						+ 149 contributors
+					</span>
+				</div>
 			</div>
 			<div className='contributors border-t border-gray-400 mt-6 pt-6'>
 				<h4 className='text-base font-semibold flex items-center'>
 					<span>Languages</span>
 				</h4>
-				<div>
-					<span>
-						<span className='w-3 h-3 rounded-full bg-purple-800'></span> CSS 96.8%
-					</span>
-					<span>
-						<span></span> JavaScript 3.2%
-					</span>
+				<div className='mt-4 flex'>
+					<div className='w-11/12 h-2 rounded-md rounded-r-none bg-purple-700'></div>
+					<div className='w-1/12 h-2 rounded-md rounded-l-none bg-yellow-400'></div>
 				</div>
+				<ul className='mt-2 flex spacex8 items-center text-xs'>
+					<li className='flex items-center'>
+						<span className='w-2 h-2 rounded-full bg-purple-700'></span>
+						<span className='ml-2'>
+							<span className='font-semibold'>CSS </span>
+							<span>93.9 % </span>
+						</span>
+					</li>
+					<li className='flex items-center ml-4'>
+						<span className='w-2 h-2 rounded-full bg-yellow-400'></span>
+						<span className='ml-2'>
+							<span className='font-semibold'>JavaScript </span>
+							<span>93.9 % </span>
+						</span>
+					</li>
+				</ul>
 			</div>
 		</div>
 	);
